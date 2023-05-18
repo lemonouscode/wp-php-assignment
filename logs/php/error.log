@@ -1,0 +1,91 @@
+[18-May-2023 08:54:56 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 46
+[18-May-2023 08:56:20 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 47
+[18-May-2023 08:56:30 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 47
+[18-May-2023 09:03:28 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 54
+[18-May-2023 09:03:28 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 54
+[18-May-2023 09:04:47 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:04:47 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:05:00 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:05:00 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:05:53 UTC] PHP Notice:  file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:05:54 UTC] PHP Warning:  file_get_contents(https://symfony-skeleton.q-tests.com/api/v2/token): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 55
+[18-May-2023 09:32:52 UTC] PHP Warning:  Undefined variable $myPostData in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 108
+[18-May-2023 09:33:58 UTC] PHP Fatal error:  Uncaught TypeError: sendPostRequest(): Argument #2 ($postData) must be of type array, string given, called in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 119 and defined in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php:67
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php(119): sendPostRequest('https://symfony...', '{"email":"ahsok...', Array)
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 67
+[18-May-2023 09:39:06 UTC] PHP Warning:  Undefined variable $myPostData in C:\Users\Storm\Local Sites\test-assignment\app\public\login\connectToApiClass.php on line 112
+[18-May-2023 13:11:19 UTC] PHP Fatal error:  Uncaught Error: Class "connectToApiClass" not found in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 5
+[18-May-2023 13:12:09 UTC] PHP Fatal error:  Uncaught Error: Class "connectToApiClass" not found in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 5
+[18-May-2023 13:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dump() in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 7
+[18-May-2023 13:50:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dump() in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 13
+[18-May-2023 14:45:22 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:17
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(17): json_decode(Object(stdClass))
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 17
+[18-May-2023 14:47:31 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:25
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(25): json_decode(Object(stdClass))
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 25
+[18-May-2023 14:48:32 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 25
+[18-May-2023 14:49:38 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:24
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(24): json_decode(Object(stdClass), true)
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 24
+[18-May-2023 14:50:06 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:24
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(24): json_decode(Object(stdClass), true)
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 24
+[18-May-2023 14:52:35 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:24
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(24): json_decode(Object(stdClass), true)
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 24
+[18-May-2023 14:53:27 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:24
+Stack trace:
+#0 C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php(24): json_decode(Object(stdClass))
+#1 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 24
+[18-May-2023 15:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 37
+[18-May-2023 15:07:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 45
+[18-May-2023 15:08:35 UTC] PHP Warning:  require(C:\Users\Storm\Local Sites\test-assignment\app\public\login/wp-load.php): Failed to open stream: No such file or directory in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 2
+[18-May-2023 15:08:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Storm\Local Sites\test-assignment\app\public\login/wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 2
+[18-May-2023 16:07:42 UTC] PHP Warning:  Undefined array key "token_key" in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 18
+[18-May-2023 16:08:39 UTC] PHP Warning:  Undefined array key "token_key" in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 18
+[18-May-2023 16:09:11 UTC] PHP Warning:  Undefined array key "token_key" in C:\Users\Storm\Local Sites\test-assignment\app\public\login\index.php on line 18
